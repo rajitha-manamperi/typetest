@@ -1,0 +1,68 @@
+
+  /* -------- Typefaces -------- */
+
+  @font-face {
+    font-family: source-sans;
+    src: url(fonts/SourceSansPro-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: web-02;
+    src: url(fonts/SinhalaWeb02.ttf);
+  }
+
+  @font-face {
+    font-family: web-03;
+    src: url(fonts/SinhalaWeb03.otf);
+  }
+
+  @font-face {
+    font-family: yaldevi;
+    src: url(fonts/YaldeviColombo-Regular.ttf);
+  }
+
+  /* -------- Global -------- */
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  /* -------- Paragraphs -------- */
+
+  .text-wrap {
+    width: 86%;
+    max-width: 500px;
+    margin-bottom: 16px;
+  }
+
+  .source-sans {
+    font-family: source-sans;
+  }
+
+  .roboto {
+    font-family: roboto;
+  }
+
+  .web-02 {
+    font-family: web-02;
+  }
+
+  .web-03 {
+    font-family: web-03;
+  }
+
+  .yaldevi {
+    font-family: yaldevi;
+  }
