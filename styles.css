@@ -2,7 +2,7 @@
   /* -------- Typefaces -------- */
 
   @font-face {
-    font-family: 'source sans';
+    font-family: source;
     src: url(https://github.com/rajitha-manamperi/typetest/Fonts/SourceSansPro-Regular.ttf);
   }
 
@@ -48,7 +48,7 @@
   }
 
   .source-sans {
-    font-family: s"ource sans";
+    font-family: source;
   }
 
   .roboto {
