@@ -2,7 +2,7 @@
   /* -------- Typefaces -------- */
 
   @font-face {
-    font-family: source-sans;
+    font-family: 'source-sans';
     src: url(fonts/SourceSansPro-Regular.ttf);
   }
 
@@ -12,12 +12,12 @@
   }
 
   @font-face {
-    font-family: web-02;
+    font-family: 'web-02';
     src: url(fonts/SinhalaWeb02.ttf);
   }
 
   @font-face {
-    font-family: web-03;
+    font-family: 'web-03';
     src: url(fonts/SinhalaWeb03.otf);
   }
 
