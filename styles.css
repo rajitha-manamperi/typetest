@@ -3,27 +3,27 @@
 
   @font-face {
     font-family: source;
-    src: url(https://github.com/rajitha-manamperi/typetest/Fonts/SourceSansPro-Regular.ttf);
+    src: url(fonts/SourceSansPro-Regular.ttf) format("truetype");
   }
 
   @font-face {
-    font-family: roboto;
-    src: url(https://github.com/rajitha-manamperi/typetest/Fonts/Roboto-Regular.ttf);
+    font-family: abc;
+    src: url(fonts/Roboto-Regular.ttf) format("truetype");
   }
 
   @font-face {
     font-family: 'web 02';
-    src: url(https://github.com/rajitha-manamperi/typetest/Fonts/SinhalaWeb02.ttf);
+    src: url(fonts/SinhalaWeb02.ttf) format("truetype")
   }
 
   @font-face {
     font-family: 'web 03';
-    src: url(https://github.com/rajitha-manamperi/typetest/Fonts/SinhalaWeb03.otf);
+    src: url(fonts/SinhalaWeb03.otf) format("truetype");
   }
 
   @font-face {
     font-family: yaldevi;
-    src: url(https://github.com/rajitha-manamperi/typetest/Fonts/YaldeviColombo-Regular.ttf);
+    src: url(fonts/YaldeviColombo-Regular.ttf) format("truetype");
   }
 
   /* -------- Global -------- */
@@ -52,7 +52,7 @@
   }
 
   .roboto {
-    font-family: roboto;
+    font-family: abc;
   }
 
   .web-02 {
