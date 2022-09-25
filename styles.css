@@ -3,7 +3,7 @@
 
   @font-face {
     font-family: source;
-    src: url(fonts/SourceSansPro-Regular.ttf) format("truetype");
+    src: url(../typetest/fonts/SourceSansPro-Regular.ttf) format("truetype");
   }
 
   @font-face {
