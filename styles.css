@@ -2,8 +2,8 @@
   /* -------- Typefaces -------- */
 
   @font-face {
-    font-family: source;
-    src: url(../typetest/fonts/SourceSansPro-Regular.ttf) format("truetype");
+    font-family: barlow;
+    src: url(../typetest/fonts/Barlow-Regular.ttf) format("truetype");
   }
 
   @font-face {
