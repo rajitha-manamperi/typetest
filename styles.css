@@ -32,7 +32,11 @@
 
   p {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  h1 {
+    letter-spacing: normal;
   }
 
   /* -------- Paragraphs -------- */
@@ -57,4 +61,8 @@
 
   .yaldevi {
     font-family: yaldevi;
+  }
+
+  p.display {
+    font-size: 36px
   }
