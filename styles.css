@@ -7,18 +7,13 @@
   }
 
   @font-face {
-    font-family: abc;
+    font-family: roboto;
     src: url(fonts/Roboto-Regular.ttf) format("truetype");
   }
 
   @font-face {
-    font-family: 'web 02';
-    src: url(fonts/SinhalaWeb02.ttf) format("truetype")
-  }
-
-  @font-face {
-    font-family: 'web 03';
-    src: url(fonts/SinhalaWeb03.otf) format("truetype");
+    font-family: sinhalaweb;
+    src: url(fonts/Sinhala-Web.ttf) format("truetype")
   }
 
   @font-face {
@@ -53,15 +48,11 @@
   }
 
   .roboto {
-    font-family: abc;
+    font-family: roboto;
   }
 
-  .web-02 {
-    font-family: "web 02";
-  }
-
-  .web-03 {
-    font-family: "web 03";
+  .sinhalaweb {
+    font-family: "sinhalaweb";
   }
 
   .yaldevi {
