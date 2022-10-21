@@ -21,6 +21,11 @@
     src: url(fonts/YaldeviColombo-Regular.ttf) format("truetype");
   }
 
+  @font-face {
+    font-family: malithi;
+    src: url(fonts/Malithi-Web.ttf) format("truetype");
+  }
+
   /* -------- Global -------- */
 
   body {
@@ -32,6 +37,7 @@
 
   p {
     margin: 0;
+    margin-bottom: 20px;
     font-size: 18px;
   }
 
@@ -57,6 +63,10 @@
 
   .sinhalaweb {
     font-family: "sinhalaweb";
+  }
+
+  .malithi {
+    font-family: malithi;
   }
 
   .yaldevi {
