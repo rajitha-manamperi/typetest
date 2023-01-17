@@ -45,6 +45,28 @@
     letter-spacing: normal;
   }
 
+   
+  /* -------- Header -------- */
+
+  header {
+    width: 100%;
+    max-width: 1000px;
+    padding-bottom: 60px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+  }
+
+  /* -------- Main -------- */
+
+  main {
+    width: 100%;
+    max-width: 1000px;
+  }
+
   /* -------- Paragraphs -------- */
 
   .text-wrap {
@@ -59,6 +81,10 @@
 
   .roboto {
     font-family: roboto;
+  }
+
+  .pabalu {
+    font-family: "Pabalu v2";
   }
 
   .sinhalaweb {
