@@ -12,8 +12,8 @@
   }
 
   @font-face {
-    font-family: sinhalaweb;
-    src: url(fonts/Sinhala-Web.ttf) format("truetype")
+    font-family: awaragira;
+    src: url(fonts/Awaragira-Regular.ttf) format("truetype")
   }
 
   @font-face {
@@ -24,6 +24,11 @@
   @font-face {
     font-family: malithi;
     src: url(fonts/Malithi-Web.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: noto;
+    src: url(fonts/NotoSansSinhala-Regular.ttf) format("truetype");
   }
 
   /* -------- Global -------- */
@@ -70,7 +75,7 @@
   /* -------- Paragraphs -------- */
 
   .text-wrap {
-    width: 86%;
+    width: 100%;
     max-width: 500px;
     margin-bottom: 16px;
   }
@@ -85,14 +90,22 @@
 
   .pabalu {
     font-family: "Pabalu v2";
+    font-size: 17px;
+    line-height: 1.4;
   }
 
-  .sinhalaweb {
-    font-family: "sinhalaweb";
+  .awaragira {
+    font-family: "awaragira";
   }
 
   .malithi {
     font-family: malithi;
+  }
+
+  p.noto {
+    font-family: noto;
+    font-size: 15px;
+    line-height: 1.5em;
   }
 
   .yaldevi {
