@@ -1,6 +1,28 @@
 
   /* -------- Typefaces -------- */
 
+  /*- Interface Fonts -*/
+
+  @font-face {
+    font-family: "Inter-Regular";
+    src: url(fonts/inter/Inter-Regular.ttf) format("truetype");
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: "Inter-Semibold";
+    src: url(fonts/inter/Inter-SemiBold.ttf) format("truetype");
+    font-weight: semibold;
+  }
+
+  @font-face {
+    font-family: "Inter-Extrabold";
+    src: url(fonts/inter/Inter-ExtraBold.ttf) format("truetype");
+    font-weight: extrabold;
+  }
+
+  /*- Testing Fonts -*/
+
   @font-face {
     font-family: barlow;
     src: url(fonts/Barlow-Regular.ttf) format("truetype");
@@ -13,7 +35,8 @@
 
   @font-face {
     font-family: awaragira;
-    src: url(fonts/Awaragira-Regular.ttf) format("truetype")
+    src: url(fonts/Awaragira-Regular.ttf) format("truetype");
+    font-weight: normal;
   }
 
   @font-face {
@@ -31,19 +54,18 @@
     src: url(fonts/NotoSansSinhala-Regular.ttf) format("truetype");
   }
 
+  @font-face {
+    font-family: noto-semicond;
+    src: url(fonts/NotoSansSinhala_SemiCondensed-Regular.ttf) format("truetype");
+  }
+
   /* -------- Global -------- */
 
   body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 7%;
-  }
-
-  p {
     margin: 0;
-    margin-bottom: 20px;
-    font-size: 18px;
   }
 
   h1 {
@@ -55,8 +77,9 @@
 
   header {
     width: 100%;
-    max-width: 1000px;
-    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .nav-link {
@@ -65,20 +88,155 @@
     margin-right: 12px;
   }
 
+  .head-wrap {
+    width: 86%;
+    max-width:700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #2BC6E8;
+    margin: 50px 0;
+  }
+
+  .logo {
+    font-family: "Inter-Extrabold";
+    font-weight: 400;
+    font-size: 32px;
+    color: #2BC6E8;
+    margin: 0;
+  }
+
+  .font-info p {
+    font-family: Inter-Semibold;
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .font-info h4 {
+    font-family: Inter-Semibold;
+    font-size: 16px;
+    margin: 0;
+  }
+
   /* -------- Main -------- */
 
   main {
     width: 100%;
-    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-wrap {
+    width: 86%;
+    max-width: 700px;
+  }
+
+  .font-name-title hr {
+    border-top: 1px solid #2BC6E8;
+    margin: 0;
+  }
+
+  .font-name-title h1 {
+    font-family: awaragira;
+    font-size: 128px;
+    font-weight: 400;
+    color: #2BC6E8;
+    line-height: 1em;;
+    margin: 40px 0 50px 0;
+  }
+
+  /* -------- Page Note -------- */
+
+  .note-wrap {
+    width: 100%;
+    margin: 20px 0 50px 0;
+    color: #2BC6E8;
+  }
+
+  .note-mark {
+    font-family: Inter-Regular;
+    font-size: 40px;
+    line-height: 0.8em;
+    margin: 0;
+  }
+
+  .note-text {
+    font-family: Inter-Semibold;
+    font-size: 16px;
+    margin: 0;
+    max-width: 400px;
+  }
+
+  .note-wrap hr {
+    border-top: 1px solid #2BC6E8;
+    margin: 40px 0 0 0;
+  }
+
+  /* -------- Section -------- */
+
+  .section {
+    margin-bottom: 50px;
+  }
+
+  /* -------- Section Title -------- */
+
+  .section-title {
+    color: #2BC6E8;
+    margin-bottom: 40px;
+  }
+
+  .section-title p {
+    font-family: Inter-Regular;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .section-title h3 {
+    font-family: Inter-Extrabold;
+    font-size: 18px;
+    margin: 0;
   }
 
   /* -------- Paragraphs -------- */
 
   .text-wrap {
+    position: relative;
     width: 100%;
     max-width: 500px;
     margin-bottom: 16px;
   }
+
+  .para-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .para-info {
+    position: absolute;
+    left: 102%;
+    color: #2BC6E8;
+    font-size: 14px;
+  }
+
+  .para-font {
+    font-family: Inter-Extrabold;
+    margin: 8px 0 ;
+  }
+
+  .para-font-size {
+    font-family: Inter-regular;
+    margin: 0;
+  }
+
+  .test-para {
+    font-size: 16px;
+  }
+
+  /* -------- Testing Fonts -------- */
 
   .source-sans {
     font-family: barlow;
@@ -104,6 +262,12 @@
 
   p.noto {
     font-family: noto;
+    font-size: 15px;
+    line-height: 1.5em;
+  }
+
+  p.noto-semicond {
+    font-family: noto-semicond;
     font-size: 15px;
     line-height: 1.5em;
   }
