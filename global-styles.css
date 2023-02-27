@@ -40,6 +40,12 @@
   }
 
   @font-face {
+    font-family: awaragira-light;
+    src: url(fonts/Awaragira-Light.ttf) format("truetype");
+    font-weight: normal;
+  }
+
+  @font-face {
     font-family: yaldevi;
     src: url(fonts/YaldeviColombo-Regular.ttf) format("truetype");
   }
@@ -72,6 +78,50 @@
     letter-spacing: normal;
   }
 
+
+  /* -------- Testing Fonts -------- */
+
+  .source-sans {
+    font-family: barlow;
+  }
+
+  .roboto {
+    font-family: roboto;
+  }
+
+  .pabalu {
+    font-family: "Pabalu v2";
+    font-size: 17px;
+    line-height: 1.4;
+  }
+
+  .awaragira {
+    font-family: "awaragira";
+  }
+
+  .awaragira-light {
+    font-family: "awaragira-light";
+  }
+
+  .malithi {
+    font-family: malithi;
+  }
+
+  p.noto {
+    font-family: noto;
+    font-size: 13.5px;
+    line-height: 1.5em;
+  }
+
+  p.noto-semicond {
+    font-family: noto-semicond;
+    font-size: 13.5px;
+    line-height: 1.5em;
+  }
+
+  .yaldevi {
+    font-family: yaldevi;
+  }
    
   /* -------- Header -------- */
 
@@ -126,6 +176,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px; 
   }
 
   .content-wrap {
@@ -257,46 +308,14 @@
 
   }
 
-  /* -------- Testing Fonts -------- */
+  /* -------- Subtitle Sizes -------- */
 
-  .source-sans {
-    font-family: barlow;
+  .subtitle-sizes p {
+    font-size: 36px;
+    margin: 0;
   }
 
-  .roboto {
-    font-family: roboto;
-  }
-
-  .pabalu {
-    font-family: "Pabalu v2";
-    font-size: 17px;
-    line-height: 1.4;
-  }
-
-  .awaragira {
-    font-family: "awaragira";
-  }
-
-  .malithi {
-    font-family: malithi;
-  }
-
-  p.noto {
-    font-family: noto;
-    font-size: 13.5px;
-    line-height: 1.5em;
-  }
-
-  p.noto-semicond {
-    font-family: noto-semicond;
-    font-size: 13.5px;
-    line-height: 1.5em;
-  }
-
-  .yaldevi {
-    font-family: yaldevi;
-  }
-
-  p.display {
-    font-size: 36px
+  .title-sizes p {
+    font-size: 80px;
+    margin: 0;
   }
