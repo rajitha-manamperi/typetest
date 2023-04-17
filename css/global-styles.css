@@ -5,64 +5,20 @@
 
   @font-face {
     font-family: "Inter-Regular";
-    src: url(fonts/inter/Inter-Regular.ttf) format("truetype");
+    src: url(../fonts/inter/Inter-Regular.ttf) format("truetype");
     font-weight: normal;
   }
 
   @font-face {
     font-family: "Inter-Semibold";
-    src: url(fonts/inter/Inter-SemiBold.ttf) format("truetype");
+    src: url(../fonts/inter/Inter-SemiBold.ttf) format("truetype");
     font-weight: semibold;
   }
 
   @font-face {
     font-family: "Inter-Extrabold";
-    src: url(fonts/inter/Inter-ExtraBold.ttf) format("truetype");
+    src: url(../fonts/inter/Inter-ExtraBold.ttf) format("truetype");
     font-weight: extrabold;
-  }
-
-  /*- Testing Fonts -*/
-
-  @font-face {
-    font-family: barlow;
-    src: url(fonts/Barlow-Regular.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: roboto;
-    src: url(fonts/Roboto-Regular.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: awaragira;
-    src: url(fonts/Awaragira-Regular.ttf) format("truetype");
-    font-weight: normal;
-  }
-
-  @font-face {
-    font-family: awaragira-light;
-    src: url(fonts/Awaragira-Light.ttf) format("truetype");
-    font-weight: normal;
-  }
-
-  @font-face {
-    font-family: yaldevi;
-    src: url(fonts/YaldeviColombo-Regular.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: malithi;
-    src: url(fonts/Malithi-Web.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: noto;
-    src: url(fonts/NotoSansSinhala-Regular.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: noto-semicond;
-    src: url(fonts/NotoSansSinhala_SemiCondensed-Regular.ttf) format("truetype");
   }
 
   /* -------- Global -------- */
@@ -76,52 +32,6 @@
 
   h1 {
     letter-spacing: normal;
-  }
-
-
-  /* -------- Testing Fonts -------- */
-
-  .source-sans {
-    font-family: barlow;
-  }
-
-  .roboto {
-    font-family: roboto;
-  }
-
-  .pabalu {
-    font-family: "Pabalu v2";
-    font-size: 17px;
-    line-height: 1.4;
-  }
-
-  .awaragira {
-    font-family: "awaragira";
-  }
-
-  .awaragira-light {
-    font-family: "awaragira-light";
-    letter-spacing: -0.2px;
-  }
-
-  .malithi {
-    font-family: malithi;
-  }
-
-  p.noto {
-    font-family: noto;
-    font-size: 13.5px;
-    line-height: 1.5em;
-  }
-
-  p.noto-semicond {
-    font-family: noto-semicond;
-    font-size: 13.5px;
-    line-height: 1.5em;
-  }
-
-  .yaldevi {
-    font-family: yaldevi;
   }
    
   /* -------- Header -------- */
@@ -153,7 +63,7 @@
   .logo {
     font-family: "Inter-Extrabold";
     font-weight: 400;
-    font-size: 32px;
+    font-size: 26px;
     color: #2BC6E8;
     margin: 0;
   }
