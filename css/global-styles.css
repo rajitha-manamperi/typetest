@@ -230,3 +230,10 @@
     font-size: 80px;
     margin: 0;
   }
+
+  /* -------- Glyphs -------- */
+
+  div.glyph-group {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }

@@ -85,3 +85,10 @@ font-family: yaldevi;
         font-size: 26.5vw;
     }
 }
+
+/* -------- Glyphs -------- */
+
+p.glyph {
+    font-family: awaragira;
+    font-size: 36px;
+  }
