@@ -71,6 +71,13 @@ font-family: yaldevi;
   font-family: drona;
   font-size: 60px;
   word-break: break-all;
+  margin: 16px 0;
+}
+
+@media(max-width: 540px) {
+  .test-phrase.drona {
+    font-size: 40px;
+  }
 }
 
 /* -------- Glyphs -------- */
