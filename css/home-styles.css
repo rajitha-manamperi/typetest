@@ -6,6 +6,17 @@
     font-weight: normal;
     }
 
+@font-face {
+    font-family: drona;
+    src: url(../fonts/Quantarooda.ttf) format("truetype");
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: varusi;
+    src: url(../fonts/Varusi-Regular.ttf) format("truetype");
+    font-weight: normal;
+    }
 
 /* -------- Header -------- */
 
@@ -38,6 +49,18 @@
 
 .font-link a.awaragira {
     font-family: 'awaragira';
+    font-size: 100px;
+    line-height: 1;
+}
+
+.font-link a.drona {
+    font-family: 'drona';
+    font-size: 100px;
+    line-height: 1;
+}
+
+.font-link a.varusi {
+    font-family: 'varusi';
     font-size: 100px;
     line-height: 1;
 }
