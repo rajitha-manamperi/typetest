@@ -21,6 +21,12 @@
     font-weight: extrabold;
   }
 
+  /* -------- Colors -------- */
+
+  :root {
+    --text-black: #222222;
+  }
+
   /* -------- Global -------- */
 
   body {
@@ -41,6 +47,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .nav-link {
@@ -56,16 +63,22 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: #2BC6E8;
     margin: 50px 0;
+  }
+
+  .font-page .head-wrap {
+    color: #2BC6E8;
   }
 
   .logo {
     font-family: "Inter-Extrabold";
     font-weight: 400;
     font-size: 26px;
-    color: #2BC6E8;
     margin: 0;
+  }
+
+  .font-page .logo {
+    color: #2BC6E8;
   }
 
   .font-info p {
@@ -113,8 +126,11 @@
 
   .note-wrap {
     width: 100%;
-    margin: 20px 0 50px 0;
+  }
+
+  .font-page .note-wrap {
     color: #2BC6E8;
+    margin: 20px 0 50px 0;
   }
 
   .note-mark {
