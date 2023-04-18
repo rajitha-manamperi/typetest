@@ -80,8 +80,18 @@ line-height: 1.5em;
 font-family: yaldevi;
 }
 
+/* -------- Font Title -------- */
+
+.font-name-title h1.awaragira {
+    font-family: awaragira;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 1em;;
+    margin: 40px 0 50px 0;
+  }
+
 @media(max-width: 540px) {
-    #awaragira-page .font-name-title h1{
+    .font-name-title h1.awaragira {
         font-size: 26.5vw;
     }
 }

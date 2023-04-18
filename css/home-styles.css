@@ -24,8 +24,20 @@
     color: var(--text-black);
 }
 
+#home-page .head-wrap {
+    margin: 40px 0;
+}
+
+#home-page .head-wrap h3 {
+    font-size: 32px;
+    font-weight: 900;
+    margin: 0;
+}
+
 #home-page .note-wrap {
-    padding: 50px 0;
+    width: 86%;
+    max-width:700px;
+    padding: 40px 0;
     border-top: 1px solid var(--text-black);
     border-bottom: 1px solid var(--text-black);
 }
@@ -55,7 +67,7 @@
 
 .font-link a.drona {
     font-family: 'drona';
-    font-size: 100px;
+    font-size: 90px;
     line-height: 1;
 }
 
@@ -63,4 +75,19 @@
     font-family: 'varusi';
     font-size: 100px;
     line-height: 1;
+}
+
+@media(max-width: 450px) {
+
+    .font-link a.awaragira {
+        font-size: 26.5vw;
+    }
+
+    .font-link a.drona {
+        font-size: 21.4vw;
+    }
+
+    .font-link a.varusi {
+        font-size: 26.5vw;
+    }
 }
