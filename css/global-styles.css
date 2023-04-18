@@ -94,6 +94,18 @@
     margin: 0;
   }
 
+  @media(max-width: 540px) {
+
+    .head-wrap {
+      align-items: flex-end;    
+    }
+
+    .logo {
+      font-size: 20px;
+    }
+  }
+
+
   /* -------- Main -------- */
 
   main {
