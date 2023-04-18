@@ -65,6 +65,13 @@ font-family: yaldevi;
     }
 }
 
+/* -------- Test Phrase -------- */
+
+.test-phrase.drona {
+  font-family: drona;
+  font-size: 60px;
+}
+
 /* -------- Glyphs -------- */
 
 p.glyph {
