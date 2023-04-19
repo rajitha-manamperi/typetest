@@ -1,0 +1,67 @@
+/* -------- Typefaces -------- */
+
+/*- Testing Fonts -*/
+
+
+  
+@font-face {
+    font-family: varusi;
+    src: url(../fonts/Varusi-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: yaldevi;
+    src: url(../fonts/YaldeviColombo-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: noto-condensed;
+    src: url(../fonts/NotoSansSinhala_Condensed-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: noto-semicond;
+    src: url(../fonts/NotoSansSinhala_SemiCondensed-Regular.ttf) format("truetype");
+}
+    
+    
+/* -------- Testing Fonts -------- */
+
+.varusi {
+    font-family: "varusi";
+    letter-spacing: -0.2px;
+}
+
+p.noto-condensed {
+    font-family: noto-condensed;
+    font-size: 13.5px;
+    line-height: 1.5em;
+}
+
+.yaldevi {
+    font-family: yaldevi;
+}
+
+/* -------- Font Title -------- */
+
+.font-name-title h1.awaragira {
+    font-family: varusi;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 0;
+    }
+
+@media(max-width: 540px) {
+    .font-name-title h1.awaragira {
+        font-size: 26.5vw;
+    }
+}
+
+/* -------- Glyphs -------- */
+
+p.glyph {
+    font-family: varusi;
+    font-size: 36px;
+}

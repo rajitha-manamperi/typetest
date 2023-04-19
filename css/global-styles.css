@@ -184,14 +184,14 @@
   /* -------- Section -------- */
 
   .section {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   /* -------- Section Title -------- */
 
   .section-title {
     color: var(--sky-blue);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .section-title p {
