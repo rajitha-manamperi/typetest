@@ -25,9 +25,16 @@
 
   :root {
     --text-black: #222222;
+    --sky-blue: #2BC6E8;
+    --hover-red:#FF4242;
   }
 
   /* -------- Global -------- */
+
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
 
   body {
     display: flex;
@@ -38,6 +45,30 @@
 
   h1 {
     letter-spacing: normal;
+  }
+
+  .body-width {
+    width: 86%;
+    max-width: 700px;
+  }
+
+  .font-page hr.divider {
+    width: 100%;
+    border-top: var(--sky-blue) 1px solid;
+    margin: 40px 0;
+  }
+
+  @media(max-width:540px) {
+
+    .body-width {
+      width: 100%;
+      padding: 0px 7%;
+    }
+
+    .font-page hr.divider {
+      margin: 30px 0;
+    }
+
   }
    
   /* -------- Header -------- */
@@ -50,24 +81,16 @@
     justify-content: center;
   }
 
-  .nav-link {
-    text-decoration: none;
-    color: black;
-    margin-right: 12px;
-  }
-
   .head-wrap {
-    width: 86%;
-    max-width:700px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;    
+    margin-top: 40px;
   }
 
   .font-page .head-wrap {
-    color: #2BC6E8;
-    margin: 50px 0;
+    color: var(--sky-blue);    
   }
 
   .logo {
@@ -79,7 +102,11 @@
   }
 
   .font-page .logo {
-    color: #2BC6E8;
+    color: var(--sky-blue);
+  }
+
+  .font-page .logo:hover {
+    color: var(--hover-red);
   }
 
   .font-info p {
@@ -97,6 +124,7 @@
   @media(max-width: 540px) {
 
     .head-wrap {
+      margin-top: 30px;
       align-items: flex-end;    
     }
 
@@ -116,19 +144,17 @@
     padding-bottom: 80px; 
   }
 
-  .content-wrap {
-    width: 86%;
-    max-width: 700px;
-  }
-
-  .font-name-title hr {
-    border-top: 1px solid #2BC6E8;
-    margin: 0;
+  .body-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .font-name-title h1 {
-    color: #2BC6E8;
+    color: var(--sky-blue);
     line-height: 1em;
+    margin: 0
   }
 
   /* -------- Page Note -------- */
@@ -138,8 +164,7 @@
   }
 
   .font-page .note-wrap {
-    color: #2BC6E8;
-    margin: 20px 0 50px 0;
+    color: var(--sky-blue);
   }
 
   .note-mark {
@@ -156,11 +181,6 @@
     max-width: 400px;
   }
 
-  .note-wrap hr {
-    border-top: 1px solid #2BC6E8;
-    margin: 40px 0 0 0;
-  }
-
   /* -------- Section -------- */
 
   .section {
@@ -170,7 +190,7 @@
   /* -------- Section Title -------- */
 
   .section-title {
-    color: #2BC6E8;
+    color: var(--sky-blue);
     margin-bottom: 40px;
   }
 
@@ -209,7 +229,7 @@
     margin-right: 0;
     display: flex;
     flex-direction: row;
-    color: #2BC6E8;
+    color: var(--sky-blue);
     font-size: 14px;
   }
 
@@ -232,7 +252,7 @@
     .para-info {
       position: absolute;
       left: 102%;
-      color: #2BC6E8;
+      color: var(--sky-blue);
       font-size: 14px;
       display: block;
     }
@@ -261,4 +281,17 @@
   div.glyph-group {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+  }
+
+  @media(max-width: 720px) {
+
+    div.glyph-group {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    p.glyph {
+      margin: 0.5em 0;
+    }
+
   }
