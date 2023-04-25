@@ -1,0 +1,104 @@
+/* -------- Typefaces -------- */
+
+/*- Testing Fonts -*/
+
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+    }
+    
+    @font-face {
+    font-family: awaragira;
+    src: url(../fonts/Awaragira-Regular.ttf) format("truetype");
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: awaragira-light;
+    src: url(../fonts/Awaragira-Light.ttf) format("truetype");
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: yaldevi;
+    src: url(../fonts/YaldeviColombo-Regular.ttf) format("truetype");
+    }
+    
+    @font-face {
+    font-family: malithi;
+    src: url(../fonts/Malithi-Web.ttf) format("truetype");
+    }
+    
+    @font-face {
+    font-family: noto;
+    src: url(../fonts/NotoSansSinhala-Regular.ttf) format("truetype");
+    }
+    
+    @font-face {
+    font-family: noto-semicond;
+    src: url(../fonts/NotoSansSinhala_SemiCondensed-Regular.ttf) format("truetype");
+    }
+    
+    
+    /* -------- Testing Fonts -------- */
+    
+    .source-sans {
+    font-family: barlow;
+    }
+    
+    .roboto {
+    font-family: roboto;
+    }
+    
+    .awaragira {
+    font-family: "awaragira";
+    }
+    
+    .awaragira-light {
+    font-family: "awaragira-light";
+    letter-spacing: -0.2px;
+    }
+    
+    .malithi {
+    font-family: malithi;
+    }
+    
+    p.noto {
+    font-family: noto;
+    font-size: 13.5px;
+    line-height: 1.5em;
+    }
+    
+    p.noto-semicond {
+    font-family: noto-semicond;
+    font-size: 13.5px;
+    line-height: 1.5em;
+    }
+    
+    .yaldevi {
+    font-family: yaldevi;
+    }
+    
+    /* -------- Font Title -------- */
+    
+    .font-name-title h1.awaragira {
+        font-family: awaragira;
+        font-size: 128px;
+        font-weight: 400;
+        line-height: 1em;
+        margin: 0;
+      }
+    
+    @media(max-width: 540px) {
+        .font-name-title h1.awaragira {
+            font-size: 26.5vw;
+        }
+    }
+    
+    /* -------- Glyphs -------- */
+    
+    p.glyph {
+        font-family: yaldevi;
+        font-size: 36px;
+      }
