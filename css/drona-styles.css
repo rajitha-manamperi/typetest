@@ -8,47 +8,6 @@ font-family: drona;
 src: url(../fonts/Drona.ttf) format("truetype");
 }
 
-
-
-/* -------- Testing Fonts -------- */
-
-.source-sans {
-font-family: barlow;
-}
-
-.roboto {
-font-family: roboto;
-}
-
-.awaragira {
-font-family: "awaragira";
-}
-
-.awaragira-light {
-font-family: "awaragira-light";
-letter-spacing: -0.2px;
-}
-
-.malithi {
-font-family: malithi;
-}
-
-p.noto {
-font-family: noto;
-font-size: 13.5px;
-line-height: 1.5em;
-}
-
-p.noto-semicond {
-font-family: noto-semicond;
-font-size: 13.5px;
-line-height: 1.5em;
-}
-
-.yaldevi {
-font-family: yaldevi;
-}
-
 /* -------- Font Title -------- */
 
 .font-name-title h1.drona {

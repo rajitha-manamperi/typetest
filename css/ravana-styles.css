@@ -1,0 +1,48 @@
+/* -------- Typefaces -------- */
+
+/*- Testing Fonts -*/
+
+
+@font-face {
+    font-family: ravana;
+    src: url(../fonts/Ravana-Display.ttf) format("truetype");
+    }
+   
+    
+    /* -------- Font Title -------- */
+    
+    .font-name-title h1.ravana {
+        font-family: ravana;
+        font-size: 128px;
+        font-weight: 400;
+        line-height: 1em;;
+        margin: 40px 0 50px 0;
+      }
+    
+    @media(max-width: 540px) {
+        .font-name-title h1.ravana {
+          font-size: 21.4vw;
+        }
+    }
+    
+    /* -------- Test Phrase -------- */
+    
+    .test-phrase.ravana {
+      font-family: ravana;
+      font-size: 60px;
+      overflow-wrap: break-word;
+      margin: 16px 0;
+    }
+    
+    @media(max-width: 540px) {
+      .test-phrase.ravana {
+        font-size: 40px;
+      }
+    }
+    
+    /* -------- Glyphs -------- */
+    
+    p.glyph {
+        font-family: ravana;
+        font-size: 36px;
+      }
