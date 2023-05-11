@@ -26,6 +26,14 @@
     }
     
     /* -------- Test Phrase -------- */
+
+    .test-phrase.ravana.large {
+      font-family: ravana;
+      font-size: 100px;
+      overflow-wrap: break-word;
+      margin: 16px 0;
+      letter-spacing: -0.02em;
+    }
     
     .test-phrase.ravana {
       font-family: ravana;
