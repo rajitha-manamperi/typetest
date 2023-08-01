@@ -59,6 +59,28 @@ p.noto-condensed {
     }
 }
 
+/* -------- Test Phrase -------- */
+
+.test-phrase-36.varusi {
+    font-family: varusi;
+    font-size: 36px;
+    overflow-wrap: break-word;
+    margin: 16px 0;
+  }
+
+.test-phrase-60.varusi {
+    font-family: varusi;
+    font-size: 60px;
+    overflow-wrap: break-word;
+    margin: 16px 0;
+  }
+  
+  @media(max-width: 540px) {
+    .test-phrase.drona {
+      font-size: 40px;
+    }
+  }
+
 /* -------- Glyphs -------- */
 
 p.glyph {
